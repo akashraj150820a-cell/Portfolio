@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+     background: linear-gradient (135deg,#0f172a,#1e293b);
+    background-color: burlywood;
+}
+
+header{
+    background: blue;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+    margin:10px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px;
+    
+}
+
+button{
+    padding:10px 20px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:15px 0;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    padding:8px;
+}
+
+.card{
+    border:1px solid red;
+    margin:15px auto;
+    padding:20px;
+    width:300px;
+    border-radius:10px;
+}
+
+footer{
+    background: blue;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+<body>
+
+    <header>
+        <h1>Akash Raj</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Web Developer | Student</p>
+        <button id="btn">Say Hello</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src= alt="Profile">
+        <p>
+            Hello! My name is Akash Raj. I am learning HTML, CSS,
+            and JavaScript and interested in Web Development.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Digital Clock</h3>
+            <p>Simple digital clock using JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h3>To-Do List</h3>
+            <p>Task management application.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: akashraj150820a@gmail.com</p>
+        <p>Phone: 9942561475</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Akash Raj. All Rights Reserved.</p>
+    </footer>
+</body>
+<<script>
+    document.getElementById("btn").addEventListener("click", function() {
+    alert("Hello! Welcome to My Portfolio Website.");
+});
+</script>
+</html>
